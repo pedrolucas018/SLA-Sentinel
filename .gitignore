@@ -1,0 +1,36 @@
+gitignore_content = """# Dependências do Node.js
+node_modules/
+backend/node_modules/
+
+# Bancos de dados locais gerados em tempo de execução (SQLite e JSON fallback)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+database.json
+backend/database.sqlite
+backend/database.sqlite-shm
+backend/database.sqlite-wal
+backend/database.json
+
+# Variáveis de ambiente e segredos
+.env
+.env.local
+.env.*.local
+
+# Logs e arquivos temporários
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Arquivos de sistema operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+"""
+
+with open(".gitignore", "w", encoding="utf-8") as f:
+    f.write(gitignore_content)
+
+print("Arquivo .gitignore gerado com sucesso.")

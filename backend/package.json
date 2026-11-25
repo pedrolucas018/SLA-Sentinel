@@ -1,0 +1,16 @@
+{
+  "name": "sla-sentinel-backend",
+  "version": "1.0.0",
+  "description": "API REST para monitoramento preditivo de SLA e ingestão de telemetria IoT",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "simular-iot": "node scripts/simulador-iot.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
