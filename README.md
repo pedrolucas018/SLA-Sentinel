@@ -1,4 +1,4 @@
-# ⚡ SLA Sentinel — Monitor Preditivo de Infraestrutura Urbana & Telemetria IoT
+# SLA Sentinel - Monitor Preditivo de Infraestrutura Urbana e Telemetria
 
 Protótipo Full Stack inspirado nos desafios reais de operação de **Cidades Inteligentes (Smart Cities)** e **Parcerias Público-Privadas (PPPs)** de iluminação pública e zeladoria urbana.
 
